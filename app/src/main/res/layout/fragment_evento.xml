@@ -1,4 +1,4 @@
-<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -9,41 +9,4 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</RelativeLayout>-->
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="100dp"
-android:layout_height="fill_parent"
-android:background="@drawable/border_items"
-android:orientation="horizontal">
-
-<!--<RelativeLayout-->
-    <!--android:layout_width="100dp"-->
-    <!--android:layout_height="fill_parent"-->
-    <!--style="@style/Base.Theme.AppCompat.Dialog.FixedSize" >-->
-
-    <ImageView
-        android:id="@+id/icon_dato"
-        android:contentDescription="desc"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_weight="4"
-        android:layout_above="@+id/btn_dato"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter" />
-
-    <TextView
-        android:id="@+id/equipo_dato"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="clip_horizontal"
-        android:paddingLeft="10dp"
-        android:textColor="#bcd6e7"/>
-
-
-
-<!--</RelativeLayout>-->
-
-</LinearLayout>
+</RelativeLayout>

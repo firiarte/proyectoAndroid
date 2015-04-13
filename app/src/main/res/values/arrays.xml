@@ -10,7 +10,7 @@
         <item>Mantenimiento</item>
     </string-array>
 
-     <string-array name="items_eventos">
+    <string-array name="items_eventos">
         <item>Integración BoA 2015</item>
         <item>BoA basqet</item>
     </string-array>
