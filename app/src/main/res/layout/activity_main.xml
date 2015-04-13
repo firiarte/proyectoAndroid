@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#444444" android:orientation="vertical"
+    >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:gravity="clip_horizontal"
+    android:text="EVENTOS"
+    android:background="#17b5e4"
+    android:textColor="#ffffff"/>
+
+<boa.mysportsboa.Adapter.HorizontalListView
+    android:id="@+id/listEventos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:height="10dp"
+    android:gravity="clip_horizontal"
+    android:paddingLeft="10dp"
+    android:background="#17b5e4"
+    android:textColor="#ffffff"
+    android:text="EQUIPOS" />
+
+<boa.mysportsboa.Adapter.HorizontalListView
+    android:id="@+id/listEquipos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:height="10dp"
+        android:gravity="clip_horizontal"
+        android:paddingLeft="10dp"
+        android:background="#17b5e4"
+        android:textColor="#ffffff"
+        android:text="FIXTURES" />
+
+    <boa.mysportsboa.Adapter.HorizontalListView
+        android:id="@+id/listFixtures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+
+
+

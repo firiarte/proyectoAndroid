@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#444444" android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/titleEquipo"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:gravity="clip_vertical"
+        android:background="#17b5e4"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <ImageView
+        android:id="@+id/icon_equipo"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="3"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height=".2dp"
+        android:background="#17b5e4"
+        android:orientation="horizontal"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/listViewJugadores"
+        />
+
+
+</LinearLayout>

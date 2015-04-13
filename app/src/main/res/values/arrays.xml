@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_equipos" >
+        <item>Sistemas FC</item>
+        <item>Operaciones</item>
+        <item>Aeropuerto CBB</item>
+        <item>GAF</item>
+        <item>Tallereres</item>
+        <item>Comercial</item>
+        <item>Mantenimiento</item>
+    </string-array>
+
+     <string-array name="items_eventos">
+        <item>Integración BoA 2015</item>
+        <item>BoA basqet</item>
+    </string-array>
+
+    <string-array name="items_jugadores" >
+        <item>Francisco Vargas</item>
+        <item>Erio flores</item>
+        <item>Jhonn Claros</item>
+        <item>Gustavo Herrera</item>
+        <item>Jaime Rivera</item>
+        <item>Gary Vera</item>
+        <item>Marcelo Orellana</item>
+        <item>Marcelo Vargas</item>
+        <item>Antonio Patino</item>
+        <item>Gonzalo Sarmiento</item>
+        <item>Aldo Zeballos</item>
+        <item>Franz Iriarte</item>
+    </string-array>
+
+</resources>

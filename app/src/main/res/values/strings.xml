@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySports-BoA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_evento">Evento</string>
+    <string name="title_activity_equipo">Equipo</string>
+
+
+
+</resources>
